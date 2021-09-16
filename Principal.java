@@ -1,4 +1,6 @@
 
+import java.util.Scanner;
+
 public class Principal {
     public static void main(String args []){
 
@@ -12,6 +14,21 @@ public class Principal {
         minhaConta.setSaldo(197.89);
         System.out.println(minhaConta.getSaldo ());
 
-    }
     
-}
+char caracter = 'A'; //código relacionado a ela   
+     String caracteres="A";
+
+     Scanner ler=new Scanner(System.in);
+    System.out.println("Digite uma letra");
+
+    //c = sc.next().charAt(0);
+    caracter=ler.next().charAt(0);
+
+     switch(caracter){
+         case 'A':
+         System.out.println("Você digitou o caracter A");
+     }
+
+     }
+
+    }
