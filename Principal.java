@@ -27,6 +27,19 @@ char caracter = 'A'; //código relacionado a ela
      switch(caracter){
          case 'A':
          System.out.println("Você digitou o caracter A");
+         break;
+         case 'E':
+         System.out.println("Você digitou o caracter E");
+         break;
+         case 'I':
+         System.out.println("Você digitou o caracter I");
+         break;
+         case 'O':
+         System.out.println("Você digitou o caracter O");
+         break;
+         case 'U':
+         System.out.println("Você digitou o caracter U");
+         break;
      }
 
      }
